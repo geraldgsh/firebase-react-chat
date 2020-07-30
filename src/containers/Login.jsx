@@ -1,14 +1,16 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import { signin, signInWithGoogle, signInWithGitHub } from "../helpers/auth";
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/destructuring-assignment */
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import { signin, signInWithGoogle, signInWithGitHub } from '../helpers/auth';
 
 export default class Login extends Component {
   constructor() {
     super();
     this.state = {
       error: null,
-      email: "",
-      password: ""
+      email: '',
+      password: '',
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -18,13 +20,13 @@ export default class Login extends Component {
 
   handleChange(event) {
     this.setState({
-      [event.target.name]: event.target.value
+      [event.target.name]: event.target.value,
     });
   }
 
   async handleSubmit(event) {
     event.preventDefault();
-    this.setState({ error: "" });
+    this.setState({ error: '' });
     try {
       await signin(this.state.email, this.state.password);
     } catch (error) {
@@ -100,7 +102,9 @@ export default class Login extends Component {
           </button>
           <hr />
           <p>
-            Don't have an account? <Link to="/signup">Sign up</Link>
+            Don't have an account?
+            {' '}
+            <Link to="/signup">Sign up</Link>
           </p>
         </form>
 

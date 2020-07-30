@@ -7,7 +7,7 @@ function Footer() {
         <p>&copy; Webby Chatty 2020.</p>
       </div>
     </footer>
-  )
+  );
 }
 
 export default Footer;
