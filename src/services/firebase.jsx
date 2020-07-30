@@ -7,8 +7,7 @@ const config = {
   databaseURL: "https://webby-chatty.firebaseio.com"
 };
 
-firebase.initializeApp(firebaseConfig);
-firebase.analytics();
+firebase.initializeApp(config);
 
 export const auth = firebase.auth;
 export const db = firebase.database();

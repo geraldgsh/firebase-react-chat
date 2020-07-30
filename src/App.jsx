@@ -5,12 +5,13 @@ import {
   Switch,
   Redirect
 } from "react-router-dom";
-import Home from "./pages/Home";
-import Chat from "./pages/Chat";
-import Signup from "./pages/Signup";
-import Login from "./pages/Login";
+import Home from "./containers/Home";
+import Chat from "./containers/Chat";
+import Signup from "./containers/Signup";
+import Login from "./containers/Login";
 import { auth } from "./services/firebase";
-import './styles.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/styles.css';
 
 function PrivateRoute({ component: Component, authenticated, ...rest }) {
   return (
