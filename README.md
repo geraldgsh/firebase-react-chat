@@ -191,7 +191,7 @@ Install ESlint with following command
 Checkout our [wikipage](https://github.com/geraldgsh/firebase-react-chat/wiki) for more details. 
 
 #### Live Demo
-[Demo]()
+[Demo](https://webby-chatty.netlify.com)
 
 #### Getting Started
 Clone repo and open index.html with your favorite browser.
