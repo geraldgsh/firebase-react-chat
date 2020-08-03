@@ -178,6 +178,7 @@ Install ESlint with following command
 
 ### Future Features
 
+* Channels
 
 ### To begin
 
