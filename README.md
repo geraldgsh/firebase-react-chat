@@ -58,16 +58,6 @@ Source [here](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 Please do the following **steps in this order**:
 
-#### Set-up Stickler (Github app) - it will show that your app is free from style errors
-
-1. Install stickler-ci https://github.com/apps/stickler-ci
-2. Enable stickler in your repo. You can do it [here](https://stickler-ci.com/).
-3. In first commit of your feature branch add a copy of [.stickler.yml](./.stickler.yml) and [.eslintrc.json](./.eslintrc.json)  to the root directory.
-   - **Remember** to use both files linked above
-   - **Remember** that `.stickler.yml` file name starts with a dot.
-4. **Do not make any changes in config files - they represent style guidelines that you share with your tem - which is a group of all Microverse students.**
-    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-5. When you open your first pull request you should see Stickler's report at `Checks` tab.
 
 #### Set-up ESlint in your local env - it will help you to find style errors
 

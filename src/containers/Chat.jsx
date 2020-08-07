@@ -84,6 +84,8 @@ export default class Chat extends Component {
           {/* chat area */}
           {this.state.chats.map(chat => (
             <p key={chat.timestamp} className={`chat-bubble ${this.state.user.uid === chat.uid ? 'current-user' : ''}`}>
+              <span className="chat-time float-right">{this.state.user.email}</span>
+              <br />
               {chat.content}
               <br />
               <span className="chat-time float-right">{this.formatTime(chat.timestamp)}</span>
