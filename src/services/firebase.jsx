@@ -3,7 +3,7 @@ import 'firebase/database';
 import 'firebase/auth';
 
 const config = {
-  apiKey: 'AIzaSyDux43OJIYyYW7jZuwAk5QvrNHaiyC2mcA',
+  apiKey: process.env.REACT_APP_API_GKEY,
   authDomain: 'webby-chatty.firebaseapp.com',
   databaseURL: 'https://webby-chatty.firebaseio.com',
 };
