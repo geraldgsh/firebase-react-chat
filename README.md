@@ -14,6 +14,8 @@ React
 * React
 * React-DOM
 * React-Create-App
+* Firebase-Auth
+* Firebase-storage
 * npm
 * CSS
 * ES6
