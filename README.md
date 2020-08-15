@@ -3,7 +3,7 @@ React
 
 ### Snapshot
 
-![]()
+![](https://github.com/geraldgsh/firebase-react-chat/blob/development/src/assets/img/screenshot.JPG)
 
 ### Introduction.
 
